@@ -9,7 +9,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 const MyFooter = () => {
   return (
@@ -26,10 +26,10 @@ const MyFooter = () => {
                 alt=""
                 className="w-10 inline-block items-center"
               />
-              <span>NEXCENT</span>
+              <span>DONG SANG VIET</span>
             </a>
             <div className="my-8">
-              <p className="mb-1"> Copyright © 2020 Nexcent ltd.</p>
+              <p className="mb-1"> Copyright © 2014 DSV inc.</p>
               <p>All rights reserved</p>
             </div>
 
@@ -87,7 +87,7 @@ const MyFooter = () => {
                 <div className="mb-2 block"></div>
                 <TextInput
                   id="email4"
-                  placeholder="name@flowbite.com"
+                  placeholder="name@mail.com"
                   required
                   rightIcon={SiMinutemailer}
                   type="email"

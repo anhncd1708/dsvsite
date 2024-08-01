@@ -1,11 +1,11 @@
 import React from "react";
-import aboutImg from "../assets/mobile-login.png";
-import Maecenas from '../assets/maecenas.png'
+import aboutImg from "../../assets/login.jpg";
+import Maecenas from '../../assets/network.png'
 
 // motion
 import { motion } from "framer-motion";
 // variants
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const Product = () => {
   return (
@@ -14,21 +14,22 @@ const Product = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <motion.div
-          variants={fadeIn("right", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="w-1/2"
           >
-            <img src={aboutImg} alt="" className="w-full" />
+            <img src={aboutImg} alt="" />
           </motion.div>
           <motion.div
-          variants={fadeIn("left", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className="md:w-3/5 mx-auto">
+            variants={fadeIn("left", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              How to design your site footer like we did
+              How to design your site like we did
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
               Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
@@ -48,11 +49,11 @@ const Product = () => {
 
       {/* company stats */}
       <motion.div
-      variants={fadeIn("up", 0.3)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.6 }}
-      className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
+        variants={fadeIn("up", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.6 }}
+        className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <div className="md:w-1/3">
             <img src={Maecenas} alt="" />
@@ -81,7 +82,7 @@ const Product = () => {
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
                   <img src="/src/assets/icons/company1.png" alt="" className="cursor-pointer" />
-                  <img src="/src/assets/icons/company2.png" alt=""  className="cursor-pointer"/>
+                  <img src="/src/assets/icons/company2.png" alt="" className="cursor-pointer" />
                   <img src="/src/assets/icons/company3.png" alt="" className="cursor-pointer" />
                   <img src="/src/assets/icons/company4.png" alt="" className="cursor-pointer" />
                   <img src="/src/assets/icons/company5.png" alt="" className="cursor-pointer" />

@@ -10,10 +10,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "brandPrimary": "#01a5e4",
+        "brandPrimary": "#007cff",
         "neutralDGrey": "#4D4D4D",
         "neutralGrey": "#717171",
         "neutralSilver": "#F5F7FA",
+        "neutralWhite": "#FFFFFF",
         "gray900": "#18191F",
         "neutralBlack": "#263238",
       }

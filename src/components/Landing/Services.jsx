@@ -2,30 +2,30 @@ import React from "react";
 // motion
 import { motion } from "framer-motion";
 // variants
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Membership Organisations",
+      title: "Web Design Service",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/membership.png",
+      image: "/src/assets/icons/web.png",
     },
     {
       id: 2,
-      title: "National Associations",
+      title: "Application Design",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/association.png",
+      image: "/src/assets/icons/application.png",
     },
     {
       id: 3,
-      title: "Clubs And Groups",
+      title: "Printer Repair Service",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/group-club.png",
+      image: "/src/assets/icons/printer.png",
     },
   ];
   return (
@@ -83,7 +83,7 @@ const Services = () => {
             className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
           >
             <div className="">
-              <div className="bg-[#E8F5E9] w-14 h-14 mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
+              <div className="bg-[#A5D1FF] w-14 h-14 mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
                 <img src={service.image} alt="" className="-ml-5" />
               </div>
               <h4 className="text-2xl font-bold text-neutralDGrey mb-2 px-2">
