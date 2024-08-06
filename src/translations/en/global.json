@@ -1,0 +1,32 @@
+{
+    "home": {
+        "banner1": {
+            "line1": "Lessons and insights",
+            "line2": "from 10 years",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "banner2": {
+            "line1": "Design and Initiation",
+            "line2": "fast with high quality",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "banner3": {
+            "line1": "Grow Business Fast",
+            "line2": "at least cost",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "button": "Contact"
+    },
+    "about": {
+        "title": "From cooperation - For difference",
+        "content": "Established in early 2014. Over the years, we have been providing various services and products to our customers. We are confident that we can accompany your business on every journey! Dong Sang Viet’s operations are aimed at meeting customer expectations: Professionalism, Reliability, Effectiveness, and Responsibility are the top priorities!",
+        "slogan": "\"Creating value for oneself, creating value for customers, creating value for society.\"",
+
+        "stats":{
+            "line1": "Helping a local",
+            "line2": "business reinvent itself",
+            "line3": "We reached here with our hard work and dedication"
+        }
+    }
+    
+}

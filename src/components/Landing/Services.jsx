@@ -29,31 +29,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
-      <motion.div
-        variants={fadeIn("up", 0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
-        className="text-center my-8"
-      >
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
-          Our Clients
-        </h2>
-        <p className="text-neutralGrey">
-          We have been working with some Fortune 500+ clients
-        </p>
-        <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src="src/assets/icons/company1.png" alt="" />
-          <img src="src/assets/icons/company2.png" alt="" />
-          <img src="src/assets/icons/company3.png" alt="" />
-          <img src="src/assets/icons/company4.png" alt="" />
-          <img src="src/assets/icons/company5.png" alt="" />
-          <img src="src/assets/icons/company6.png" alt="" />
-          <img src="src/assets/icons/company7.png" alt="" />
-        </div>
-      </motion.div>
-
+    <div className="md:px-14 px-4 py-1 max-w-screen-2xl mx-auto" id="service">
       {/* service cards */}
       <motion.div
         variants={fadeIn("left", 0.2)}
@@ -93,6 +69,30 @@ const Services = () => {
             </div>
           </div>
         ))}
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="text-center my-8"
+      >
+        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
+          Our Clients
+        </h2>
+        <p className="text-neutralGrey">
+          We have been working with some Fortune 500+ clients
+        </p>
+        <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
+          <img src="src/assets/icons/company1.png" alt="" />
+          <img src="src/assets/icons/company2.png" alt="" />
+          <img src="src/assets/icons/company3.png" alt="" />
+          <img src="src/assets/icons/company4.png" alt="" />
+          <img src="src/assets/icons/company5.png" alt="" />
+          <img src="src/assets/icons/company6.png" alt="" />
+          <img src="src/assets/icons/company7.png" alt="" />
+        </div>
       </motion.div>
     </div>
   );

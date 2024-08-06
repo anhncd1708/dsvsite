@@ -1,0 +1,32 @@
+{
+    "home": {
+        "banner1": {
+            "line1": "Lessons and insights",
+            "line2": "from 10 years",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "banner2": {
+            "line1": "Design and Initiation",
+            "line2": "fast with high quality",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "banner3": {
+            "line1": "Grow Business Fast",
+            "line2": "at least cost",
+            "line3": "Where to grow your own business: site or social media?"
+        },
+        "button": "Liên hệ"
+    },
+    "about": {
+        "title": "Đến từ hợp tác - Cho sự khác biệt",
+        "content": "Được thành lập vào đầu năm 2014. Qua nhiều năm hoạt động, chúng tôi đã và đang cung cấp đến khách hàng nhiều dịch vụ và sản phẩm khác nhau, chúng tôi tin chắc rằng có thể đồng hành cùng doanh nghiệp của bạn trên mọi chặn đường! Hoạt động của Đồng Sáng Việt hướng tới mục đích đáp ứng được mong muốn của khách hàng với tiêu chí: Chuyên Nghiệp, Uy Tín, Hiệu Quả và Trách Nhiệm.",
+        "slogan": " \"Tạo ra giá trị cho chính mình, tạo ra giá trị cho khách hàng , tạo ra giá trị cho xã hội.\" ",
+
+        "stats":{
+            "line1": "Helping a local",
+            "line2": "business reinvent itself",
+            "line3": "We reached here with our hard work and dedication"
+        }
+    }
+    
+}
