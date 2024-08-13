@@ -55,12 +55,12 @@ const About = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/2">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-2 md:w-2/3">
-              Helping a local <br />{" "}
+              {t("about.stats.content.line1")} <br />{" "}
               <span className="text-brandPrimary">
-                business reinvent itself
+                {t("about.stats.content.line2")}
               </span>
             </h2>
-            <p>We reached here with our hard work and dedication</p>
+            <p>{t("about.stats.content.line3")}</p>
           </div>
 
           {/* stats */}
@@ -69,17 +69,17 @@ const About = () => {
               <div className="flex items-center gap-4">
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    2,245,341
+                    {t("about.stats.cost.line1")}
                   </h4>
-                  <p>Members</p>
+                  <p> {t("about.stats.cost.line2")}</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    46,328
+                    {t("about.stats.processing.line1")}
                   </h4>
-                  <p>Clubs</p>
+                  <p>{t("about.stats.processing.line2")}</p>
                 </div>
               </div>
             </div>
@@ -87,17 +87,17 @@ const About = () => {
               <div className="flex items-center gap-4">
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    828,867
+                    {t("about.stats.security.line1")}
                   </h4>
-                  <p>Event Bookings</p>
+                  <p>{t("about.stats.security.line2")}</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    1,926,436
+                    {t("about.stats.commitment.line1")}
                   </h4>
-                  <p>Payments</p>
+                  <p>{t("about.stats.commitment.line2")}</p>
                 </div>
               </div>
             </div>

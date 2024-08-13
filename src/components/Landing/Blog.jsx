@@ -1,5 +1,5 @@
-import { Card } from 'flowbite-react';
-import React from 'react';
+import { Card } from "flowbite-react";
+import React from "react";
 
 // motion
 import { motion } from "framer-motion";
@@ -7,30 +7,46 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
 const Blog = () => {
-    const blogs = [
-        { id: 1, title: "Creating Streamlined Safeguarding Processes with OneRen", image: "/src/assets/blog1.png" },
-        { id: 2, title: "What are your safeguarding responsibilities and how can you manage them?", image: "/src/assets/blog2.png" },
-        { id: 3, title: "Revamping the Membership Model with Triathlon Australia", image: "/src/assets/blog3.png" },
-    ];
-    return (
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12' id='faq'>
-            <motion.div
-                variants={fadeIn("left", 0.2)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+  const blogs = [
+    {
+      id: 1,
+      title: "Creating Streamlined Safeguarding Processes with OneRen",
+      image: "/src/assets/blog1.png",
+    },
+    {
+      id: 2,
+      title:
+        "What are your safeguarding responsibilities and how can you manage them?",
+      image: "/src/assets/blog2.png",
+    },
+    {
+      id: 3,
+      title: "Revamping the Membership Model with Triathlon Australia",
+      image: "/src/assets/blog3.png",
+    },
+  ];
+  return (
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="faq">
+      <motion.div
+        variants={fadeIn("left", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.6 }}
+        className="text-center md:w-1/2 mx-auto"
+      >
+        <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
+          Caring is the new marketing
+        </h2>
+        <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
+          The Nexcent blog is the best place to read about the latest membership
+          insights, trends and more. See who is joining the community, read
+          about how our community are increasing their membership income and lot
+          is more.
+        </p>
+      </motion.div>
 
-                className='text-center md:w-1/2 mx-auto'>
-                <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
-                    Caring is the new marketing
-                </h2>
-                <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
-                    The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who is joining the community, read about how our community are increasing their membership income and lot is more.
-                </p>
-            </motion.div>
-
-            {/* all blogs */}
-            <motion.div
+      {/* all blogs */}
+      {/* <motion.div
                 variants={fadeIn("right", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
@@ -64,10 +80,9 @@ const Blog = () => {
                         </div>
                     </div>)
                 }
-            </motion.div>
-
-        </div>
-    );
+            </motion.div> */}
+    </div>
+  );
 };
 
 export default Blog;

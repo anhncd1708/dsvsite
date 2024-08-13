@@ -10,10 +10,12 @@ import {
 } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 import logo from "../../assets/logo.png";
+import { useTranslation } from "react-i18next";
 
 const MyFooter = () => {
+  const [t, i18n] = useTranslation("global");
   return (
-    <footer className="bg-neutralBlack text-white">
+    <footer id="footer" className="bg-neutralBlack text-white">
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto py-12">
         <div className="grid w-full justify-between gap-8 sm:flex sm:items-start sm:justify-between md:flex md:grid-cols-1">
           <div className="mt-2">
@@ -26,11 +28,11 @@ const MyFooter = () => {
                 alt=""
                 className="w-10 inline-block items-center"
               />
-              <span>DONG SANG VIET</span>
+              <span>{t("footer.title")}</span>
             </a>
             <div className="my-8">
-              <p className="mb-1"> Copyright © 2014 DSV inc.</p>
-              <p>All rights reserved</p>
+              <p className="mb-1"> {t("footer.address")}</p>
+              <p className="mb-1"> {t("footer.phone")}</p>
             </div>
 
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-start text-white">
@@ -82,16 +84,11 @@ const MyFooter = () => {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Stay up to date" className="text-white" />
+              {/* <Footer.Title title="Stay up to date" className="text-white" /> */}
               <div className="max-w-md text-white">
-                <div className="mb-2 block"></div>
-                <TextInput
-                  id="email4"
-                  placeholder="name@mail.com"
-                  required
-                  rightIcon={SiMinutemailer}
-                  type="email"
-                />
+                <div className="block"></div>
+                <p className="mb-1">{t("footer.copyright.line1")}</p>
+                <p>{t("footer.copyright.line2")}</p>
               </div>
             </div>
           </div>

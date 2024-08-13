@@ -15,8 +15,8 @@ export default function HomeView() {
       <Services />
       <About />
       <Product />
-      <Blog />
-      <Newsletter />
+      {/* <Blog /> */}
+      {/* <Newsletter /> */}
       <Footer />
     </>
   );

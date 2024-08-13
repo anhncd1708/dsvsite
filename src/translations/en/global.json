@@ -21,12 +21,58 @@
         "title": "From cooperation - For difference",
         "content": "Established in early 2014. Over the years, we have been providing various services and products to our customers. We are confident that we can accompany your business on every journey! Dong Sang Viet’s operations are aimed at meeting customer expectations: Professionalism, Reliability, Effectiveness, and Responsibility are the top priorities!",
         "slogan": "\"Creating value for oneself, creating value for customers, creating value for society.\"",
-
-        "stats":{
-            "line1": "Helping a local",
-            "line2": "business reinvent itself",
-            "line3": "We reached here with our hard work and dedication"
+        "stats": {
+            "content": {
+                "line1": "Helping a local",
+                "line2": "business reinvent itself",
+                "line3": "We reached here with our hard work and dedication"
+            },
+            "cost": {
+                "line1": "Transparent costs",
+                "line2": "Service costs are always disclosed to customers in advance"
+            },
+            "processing": {
+                "line1": "Process optimization",
+                "line2": "Swift and timely handling of customer issues is Dong Sang Viet's top priority"
+            },
+            "security": {
+                "line1": "Data security",
+                "line2": "Protecting customer data is our responsibility and obligation"
+            },
+            "commitment": {
+                "line1": "Commitment",
+                "line2": "\"Reputation leads to quality\""
+            }
         }
-    }
-    
+    },
+
+    "navbar":{
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "product": "Product",
+        "commitment": "Our Mission",
+        "contact": "Contact"
+    },
+
+    "ourmission":{
+        "content": "Dong Sang Viet is made up of intelligent, united, and creative Vietnamese individuals working together to build a Vietnamese brand. Human values and personal development are the company's top priorities. Discipline and teamwork are highly emphasized, and everyone in the company must support each other to collectively develop, progress, and advance in a civilized manner. At Dong Sang Viet, our commitment to addressing and solving social issues is always central to our business activities, aiming to create a better life for the community. We have been and are providing educational support to children in difficult circumstances in remote rural areas of the country, fulfilling part of our social responsibility and changing the significance of education for these children. Established in early 2014, Dong Sang Viet has delivered a large volume of services to clients, supporting businesses both domestically and internationally across various fields and platforms. We pride ourselves on meeting the needs of our customers",
+        "title": "Our Mission",
+        "slogan":"\"Creating value for oneself, creating value for customers, creating value for society.\""
+    },
+
+    "product": {
+        "title": "How to customize application like we did",
+        "content": "Custom software development essentially involves creating software tailored to meet the specific needs of a business model. Custom software development brings numerous benefits to businesses in terms of operations, production, and management: Meeting Specific Requirements: Each business has unique management and business models. Custom software helps businesses maintain tight control, manage, and operate more effectively by addressing their specific needs. High Data Security: With each business's unique requirements, developers must write complex code to ensure that the software meets the business's needs. Additionally, developers need to ensure the creation of a robust data security system for the client. Advanced Features: Custom software is designed to meet the specific demands of a business, improving interactions with customers and business partners, and optimizing internal management processes and business operations. Easy Software Maintenance: Since the software is designed to specifications, each piece of software has its own source code. Maintenance helps identify issues not discovered in previous software life cycles or allows for the upgrading and updating of new features, ensuring smooth and secure software operation.",
+        "button": "Learn more"
+    },
+
+    "footer": {
+        "title":"DONG SANG VIET",
+        "copyright": {
+        "line1":"Copyright 2014 Dong Sang Viet.",
+        "line2":"All rights reserved."},
+        "address": "282 Street No. 13, Phuoc Binh, District 9, Ho Chi Minh City, Vietnam",
+        "phone": "028 7303 3268"
+}
 }

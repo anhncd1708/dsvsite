@@ -1,30 +1,30 @@
 {
     "home": {
-        "banner1": {
-            "line1": "Lessons and insights",
-            "line2": "from 10 years",
-            "line3": "Where to grow your own business: site or social media?"
-        },
-        "banner2": {
-            "line1": "Design and Initiation",
-            "line2": "fast with high quality",
-            "line3": "Where to grow your own business: site or social media?"
-        },
-        "banner3": {
-            "line1": "Grow Business Fast",
-            "line2": "at least cost",
-            "line3": "Where to grow your own business: site or social media?"
-        },
-        "button": "Liên hệ"
+    "banner1": {
+        "line1": "Kinh nghiệm và thấu hiểu",
+        "line2": "từ 10 năm",
+        "line3": "Nên phát triển doanh nghiệp của bạn ở đâu: trang web hay mạng xã hội?"
     },
+    "banner2": {
+        "line1": "Thiết kế và Khởi tạo",
+        "line2": "nhanh chóng với chất lượng cao",
+        "line3": "Nên phát triển doanh nghiệp của bạn ở đâu: trang web hay mạng xã hội?"
+    },
+    "banner3": {
+        "line1": "Phát triển Doanh Nghiệp Nhanh",
+        "line2": "với chi phí thấp nhất",
+        "line3": "Nên phát triển doanh nghiệp của bạn ở đâu: trang web hay mạng xã hội?"
+    },
+    "button": "Liên hệ"
+},
     "about": {
         "title": "Đến từ hợp tác - Cho sự khác biệt",
         "content": "Được thành lập vào đầu năm 2014. Qua nhiều năm hoạt động, chúng tôi đã và đang cung cấp đến khách hàng nhiều dịch vụ và sản phẩm khác nhau, chúng tôi tin chắc rằng có thể đồng hành cùng doanh nghiệp của bạn trên mọi chặn đường! Hoạt động của Đồng Sáng Việt hướng tới mục đích đáp ứng được mong muốn của khách hàng với tiêu chí: Chuyên Nghiệp, Uy Tín, Hiệu Quả và Trách Nhiệm.",
         "slogan": " \"Tạo ra giá trị cho chính mình, tạo ra giá trị cho khách hàng , tạo ra giá trị cho xã hội.\" ",
         "stats": {
             "content": {
-                "line1": "Góp sức cho",
-                "line2": "sự phát triển doanh nghiệp của bạn",
+                "line1": "Góp sức cho sự ",
+                "line2": "phát triển doanh nghiệp",
                 "line3": "Bằng tất cả niềm đam mê và nhiệt huyết"
             },
             "cost": {
@@ -44,5 +44,34 @@
                 "line2": "\"Uy tín dẫn đầu chất lượng\""
             }
         }
-    }
+    },
+    "navbar":{
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "service": "Dịch vụ",
+        "product": "Sản phẩm",
+        "commitment": "Sứ mệnh",
+        "contact": "Liên hệ"
+    },
+
+    "ourmission":{
+        "content": "Đồng Sáng Việt là những người Việt Thông Minh - Đồng Lòng - Sáng Tạo để làm nên một thương hiệu người Việt. Giá trị nhân văn và phát triển con người được công ty đặt làm trọng tâm hàng đầu. Tính làm việc kỷ luật - teamwork luôn được chú trọng nhất và tất cả mọi người trong công ty phải giúp đỡ lẫn nhau để cùng nhau Phát Triển - Tiến Bộ - Văn Minh hơn. Tại Đồng Sáng Việt, cam kết tiếp cận và giải quyết các vấn đề xã hội luôn là trọng tâm trong hoạt động kinh doanh của chúng tôi nhằm tạo ra một cuộc sống tốt đẹp hơn cho cộng đồng. Chúng tôi đã và đang cung cấp hỗ trợ giáo dục cho trẻ em có hoàn cảnh khó khăn ở vùng nông thôn xa xôi hẻo lánh của đất nước nhằm thực hiện một phần trách nhiệm với Xã Hội để thay đổi ý nghĩa trong việc học của trẻ em. Được thành lập vào đầu năm 2014,  Đồng Sáng Việt đã cung cấp đến khách hàng khối lượng dịch vụ lớn, hỗ trợ các doanh nghiệp trong và ngoài nước với nhiều lĩnh vực, nền tảng khác nhau. Chúng tôi tự hào là nơi đáp ứng được nhu cầu khách hàng.",
+        "title": "Sứ mệnh",
+        "slogan":"\"Tạo ra giá trị cho chính mình, tạo ra giá trị cho khách hàng , tạo ra giá trị cho xã hội.\""
+    },
+
+    "product": {
+    "title": "Cách tùy chỉnh ứng dụng như chúng tôi đã làm",
+    "content": "Phát triển phần mềm tùy chỉnh về bản chất là việc tạo ra phần mềm được thiết kế để đáp ứng các nhu cầu cụ thể của một mô hình doanh nghiệp. Phát triển phần mềm tùy chỉnh mang lại nhiều lợi ích cho doanh nghiệp về mặt vận hành, sản xuất và quản lý: Đáp ứng Yêu Cầu Cụ Thể: Mỗi doanh nghiệp có những mô hình quản lý và kinh doanh riêng biệt. Phần mềm tùy chỉnh giúp doanh nghiệp duy trì kiểm soát chặt chẽ, quản lý và vận hành hiệu quả hơn bằng cách giải quyết các nhu cầu cụ thể của họ. Bảo Mật Dữ Liệu Cao: Với những yêu cầu đặc thù của từng doanh nghiệp, các lập trình viên cần viết mã phức tạp để đảm bảo phần mềm đáp ứng nhu cầu của doanh nghiệp. Thêm vào đó, các lập trình viên cũng cần đảm bảo xây dựng một hệ thống bảo mật dữ liệu vững chắc cho khách hàng. Tính Năng Vượt Trội: Phần mềm tùy chỉnh được thiết kế để đáp ứng các yêu cầu cụ thể của doanh nghiệp, cải thiện tương tác với khách hàng và đối tác kinh doanh, và tối ưu hóa các quy trình quản lý nội bộ cũng như hoạt động của doanh nghiệp. Bảo Trì Phần Mềm Dễ Dàng: Vì phần mềm được thiết kế theo yêu cầu, mỗi phần mềm có mã nguồn riêng của nó. Bảo trì giúp phát hiện các lỗi chưa được phát hiện trong các chu kỳ sống phần mềm trước đó hoặc cho phép nâng cấp và cập nhật các tính năng mới, đảm bảo phần mềm hoạt động mượt mà và an toàn.",
+    "button": "Tìm hiểu thêm"
+},
+
+"footer": {
+    "title":"ĐỒNG SÁNG VIỆT",
+    "copyright": {
+        "line1":"Copyright 2014 Đồng Sáng Việt.",
+        "line2":"All rights reserved."},
+    "address": "282 Đường số 13, Phước Bình, Quận 9, Hồ Chí Minh, Việt Nam",
+    "phone": "028 7303 3268"
+}
 }

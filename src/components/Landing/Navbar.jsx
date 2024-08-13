@@ -2,14 +2,24 @@ import { useEffect, useState } from "react";
 import logo from "../../assets/logo.png";
 
 import { Link } from "react-scroll";
-
+import { motion } from "framer-motion";
 // import icons from react icons
 import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
+import LanguagePopover from "./common/LanguagePopover";
+import { fadeIn } from "../../variants";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const [t, i18n] = useTranslation("global");
+  const home = t("navbar.home");
+  const service = t("navbar.service");
+  const about = t("navbar.about");
+  const product = t("navbar.product");
+  const contact = t("navbar.contact");
+  const commitment = t("navbar.commitment");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -33,12 +43,11 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Service", path: "service" },
-    { link: "About", path: "about" },
-    { link: "Product", path: "product" },
-    { link: "Testimonial", path: "testimonial" },
-    { link: "FAQ", path: "faq" },
+    { link: home, path: "home" },
+    { link: service, path: "service" },
+    { link: about, path: "about" },
+    { link: product, path: "product" },
+    { link: commitment, path: "testimonial" },
   ];
   return (
     <header className=" bg-white md:bg-transparent fixed top-0 left-0 right-0">
@@ -74,17 +83,35 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="space-x-12 hidden lg:flex items-center">
-            <a
-              href="/"
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="space-x-8 hidden lg:flex items-center"
+          >
+            <LanguagePopover />
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-100}
+              key={contact}
+              href="footer"
+              to="footer"
               className="bg-brandPrimary text-white  py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey"
             >
-              Contact
-            </a>
-          </div>
+              {contact}
+            </Link>
+          </motion.div>
 
           {/* menu btn, visible on mobile screen */}
-          <div className="md:hidden">
+          <motion.div
+            variants={fadeIn("left", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="md:w-3/5 mx-auto md:hidden"
+          >
             <button
               onClick={toggleMenu}
               className="text-gray900 focus:outline-none focus:text-gray-500"
@@ -95,7 +122,7 @@ const Navbar = () => {
                 <FaBars className="h-6 w-6 text-primary" />
               )}
             </button>
-          </div>
+          </motion.div>
         </div>
 
         <div
